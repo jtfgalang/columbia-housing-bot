@@ -15,7 +15,6 @@ def send_alert():
 def check():
     options = Options()
     options.add_argument("--headless")
-    options.add_argument("--user-data-dir=selenium_session")
     driver = webdriver.Chrome(options=options)
 
     try:
