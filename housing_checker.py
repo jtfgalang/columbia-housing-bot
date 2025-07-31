@@ -36,7 +36,6 @@ def check():
         driver.quit()
 
 while True:
-    send_alert()
     check()
     time.sleep(600)
 
