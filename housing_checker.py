@@ -38,3 +38,5 @@ def check():
 while True:
     check()
     time.sleep(600)
+
+send_alert()
